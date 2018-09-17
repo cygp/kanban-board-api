@@ -1,4 +1,4 @@
-// GENERAL GUNCTION
+// GENERAL FUNCTION
 function randomString() {
 	var chars = '0123456789abcdefghiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXTZ'.split();
 	var str = '', i;
