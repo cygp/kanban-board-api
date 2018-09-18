@@ -25,16 +25,6 @@ function setupCards(col, cards) {
   	col.addCard(cardObj);
 	});
 }
-// CREATING COLUMN ID
-// function randomString() {
-// 	var chars = '0123456789abcdefghiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXTZ';
-// 	var str = '', i;
-// 	for (i = 0; i < 10; i++) {
-// 	  str += chars[Math.floor(Math.random() * chars.length)];
-// 	}
-// 	return str;
-// }
-
 function generateTemplate(name, data, basicElement) {
   	var template = document.getElementById(name).innerHTML;
   	var element = document.createElement(basicElement || 'div');
