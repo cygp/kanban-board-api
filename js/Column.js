@@ -43,6 +43,6 @@ Column.prototype = {
      })
      .then(function(resp) {
        self.element.parentNode.removeChild(self.element);
-     });
+     }); 
    }
 };
